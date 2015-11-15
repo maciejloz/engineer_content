@@ -1,0 +1,61 @@
+System.Enviroment.Exit --> wykorzystanie tej metody na koncu programu pozwala zwolnic watki dzialajace w tle.
+
+AppDomain.CurrentDomain.ProcessExit += new EventHandler (OnProcessExit);  podlaczenie tego eventhandlera pozwala
+wywolac jakas metode, gdy proces z aplikacja bedzie sie wylaczal, np. dispose()
+
+AppDomain jest to taka jakby izolowana przestrzen, ktora tworzy sie w procesie(mozna stworzyc w jednym procesie kilka AppDomain) i mozemy wywolac pewien kod
+w izolacji, a potem po sobie posprzatac, usunac biblioteki implementowane do appdomain(jesli tworzylibysmy nowy proces, to nie mozemy tego zrobic).
+Mozemy miec kilka AppDomain i niepowodzenie w jednym AppDomain nie wplywa w zaden sposob na inne domeny.
+Kod jednego AppDomain nie moze korzystac z zasobow innej domeny
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            AppDomain appDomain=AppDomain.CreateDomain("Nazwa AppDomain");
+            appDomain.ExecuteAssembly(@"ConsoleApplication3.exe");            
+        }
+    }
+}
+
+AppDomainy moga sie komunikowac tworzac serwer proxy, albo serializujac dane, albo kopiujac instancje jakiejs klasy, ktora chcemy wykorzystywac w innym AppDomain
+
+Jesli pojawia sie problem z zamknieciem aplikacji(jakies watki dzialaja w tle, okna etc.):
+In your MainWindow.xaml.cs, try doing this:
+
+protected override void OnClosed(EventArgs e)
+{
+    base.OnClosed(e);
+
+    Application.Current.Shutdown();
+}
+Per this link, you can also set the ShutdownMode in xaml:
+
+http://msdn.microsoft.com/en-us/library/system.windows.application.shutdownmode.aspx
+
+<Application
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="MainWindow.xaml"
+    ShutdownMode="OnExplicitShutdown" // wylaczanie na zawolanie metody, tylko wtedy
+    >
+</Application>
+
+mozemy uzywac metod, ktore sa jednoczesnie async i typu Task
+typu Task uzywamy, jesli chcemy zeby metoda cos zwrocila, np. obiekt task, ktory wykoinuja jakas czynnosc/ czynnosci w oso
+bnym watku. Ale mozemy tez chciec zwracac inty, stringi etc. Task<int> nazwa_metody
+Jesli chcemy zwracac jakas wartosc z metody, ktora jest taskiem, mozemy to tez zrobic za pomoca wskaznika Func:
+  Func<TestFile> indicatorToGetTestFromServer = new Func<TestFile>(() => ClientConnection.Instance.GetTestFromServer());
+  TestFile testFile = await Task.Run<TestFile>(indicatorToGetTestFromServer);
+wowczas nasza metoda GetTestFromServer nie jest taskiem, ale w tym wypadku jest typu FileTest
+
+Jesli chcemy uzywac await w asyncu, to nasza metoda musi byc typu Task
+async void ... uzywamy tylko dla eventhandlerow
+
+
+
+Rodzaj:"O"; Tresc:"Opisz dzia³anie wzmacniacza ró¿nicowego"; Czas:"60".
+
+mscorlib.dll --> Microsoft Common Object Runtime Library.

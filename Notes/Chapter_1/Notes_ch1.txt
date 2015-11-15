@@ -1,0 +1,48 @@
+Przegl¹d platform e-learningowych, inne mozliwosci sprawdzania wiedzy(jakies nawiazanie do tradycyjnych metod?), moj pomysl na aplikacje, potencjal aplikacji tego rodzaju ?
+Cel pracy, problem glowny, synteza tematu, 
+
+Bior¹c pod uwagê ró¿norodnoœæ sytuacji ‘sprawdzania’ – kto sprawdza, co
+sprawdza, w jakim momencie i w jakim celu mo¿emy powiedzieæ, ¿e zastosowanie technik
+komputerowych do sprawdzania wiadomoœci i umiejêtnoœci uczniów jest wszechstronne.
+Obecne programy komputerowe mo¿na wykorzystaæ do:
+• przygotowywania pytañ oraz testów,
+• realizacji procesu kontroli na lekcji,
+• samosprawdzenia wiedzy uczniów. 
+
+Odrêbnym zagadnieniem jest wykorzystanie multimediów w czasie przeprowadzenia
+sprawdzianów. 
+
+Prawdopodobienstwo sciagania, ale mozna zminimalizowac przez nadanie czasu na odpowiedz(ktora pozwoli przeczytac i zaznaczyc odpowiedz) albo przez tworzenie
+grup, albo przez mieszanie pytan w trakcie realizacji testu
+
+ostêpy.
+Istnieje wiele programów do indywidualnego sprawdzania wiadomoœci uczniów.
+Ich wykorzystanie w czasie lekcji jest w wielu przypadkach niemo¿liwe ze wzglêdu na zbyt
+ma³¹ liczbê stanowisk komputerowych. Dlatego te¿ programy te s¹ przeznaczone do
+indywidualnej pracy ucznia i masowo rozpowszechniane w Internecie oraz na p³ytach CD. 
+3
+Programy na p³ytach do³¹czane s¹ do podrêczników, zbiorów zadañ i repetytoriów, czêsto
+tak¿e wydawane s¹ okazjonalnie przez ró¿nego rodzaju gazety przed egzaminami (testy
+po 6. klasie, gimnazjalne, maturalne).
+
+Odrêbn¹ grupê stanowi¹ programy uniwersalne do przeprowadzania indywidualnych
+sprawdzianów. Ich uniwersalnoœæ polega na tym, ¿e nauczyciel sam stwarza bazê pytañ.
+W zale¿noœci od rodzaju programu, mo¿e on mieæ funkcje tylko odtwarzania pytania wraz
+z odpowiedziami lub funkcje mieszania pytañ i zmieniania miejsca usytuowania poprawnej
+odpowiedzi. Sprawdzany te najczêœciej s¹ testami jednokrotnego wyboru, ale mog¹ te¿
+zawieraæ funkcje uzupe³nienia luki lub testu wielokrotnego wyboru.
+
+raæ funkcje uzupe³nienia luki lub testu wielokrotnego wyboru.
+Do ogólnie dostêpnych darmowych programów komputerowych, umo¿liwiaj¹cych
+nauczycielom przygotowanie interaktywnych sprawdzianów, nale¿¹ np. programy ‘Hot
+potatoes’, eXe [Cieœla, Paœko, 2007]. Zalet¹ tego typu programów s¹: ³atwoœæ
+przygotowania w nich sprawdzianu przez nauczyciela, ka¿dy uczeñ pracuje samodzielnie,
+istnieje mo¿liwoœæ dodania filmu lub obrazu jako pytania.
+
+Zrodla dla zdjecia z programu "Testy" --> http://www.pcworld.pl/artykuly/358371/Programy.dla.nauczycieli.html
+Istnieje tak¿e program "Tester" i "CATest"
+
+Wiadomo nie od dziœ, ¿e programy komputerowe u³atwiaj¹ testowanie zdobytej wiedzy. Program Testy ma wbudowany edytor pozwalaj¹cy tworzyæ zestawy pytañ i uzupe³niaæ
+ je dodatkowymi opisami oraz ilustracjami. Po przeprowadzeniu testu podsumowuje uzyskane wyniki i wystawia ocenê. Uczeñ ma mo¿liwoœæ trenowania z ró¿nymi
+ zestawami odpowiedzi. Program obs³uguje testy wielokrotnego wyboru, potrafi te¿ porównaæ i przeanalizowaæ wyniki sprawdzianu przeprowadzanego w wiêkszej
+ grupie, na przyk³ad wœród uczniów jednej klasy. Do programu do³¹czone s¹ przyk³adowe zestawy testowe z jêzyka polskiego, przyrody i informatyki.

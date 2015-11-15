@@ -1,0 +1,4 @@
+IIS to serwer HTTP albo FTP, ktory korzyta z uslug sieciowych. Instalujemy przez wejscie w "Narzedzia Administracyjne" i wybranie IIS. Do folderu, ktory udsotepniamy-
+- z zawartoscia strony(czy innych zasobow) musiy ustawic uprawnienia dla IUSR i IUSRS, a jesli chcemy udostepniac w sieci to dla wszystkich ustawiamy pelne upr.
+IIS mozemy zarzadzac z poziomu C#
+Moze to byc alternatywa dla serwera postawionego na sockecie

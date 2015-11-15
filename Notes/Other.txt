@@ -1,0 +1,6 @@
+app.xaml allows you to declare resources that are shared across the application.
+
+Also the app.xaml.cs contains the application level events:
+Application_Startup
+Application_Exit
+Application_UnhandledException
